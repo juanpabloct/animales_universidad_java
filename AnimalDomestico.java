@@ -5,7 +5,7 @@ public class AnimalDomestico {
     String genero;
 
     public void nombreAnimal() {
-        System.out.print(this.nombreAnimal+"\n");
+        System.out.print(this.nombreAnimal + "\n");
     }
 
     public void tipoAnimal() {
