@@ -7,11 +7,10 @@ public class main {
         perro.genero = "Masculino";
         perro.tipo = "Domestico";
         perro.nombreAnimal = "Perro";
-        perro.edad();
-        perro.genero();
+        perro.edadAnimal();
         perro.nombreAnimal();
         perro.tipoAnimal();
-        System.out.print("_______________________\n");
+        System.out.print("\n_______________________\n");
 
         // Salvaje
 
@@ -22,12 +21,11 @@ public class main {
         leon.comida[2] = "Jirafa";
         leon.genero = "Macho";
         leon.edad = 3;
-        leon.tipo = "Carnivoro";
+        leon.tipoDeAnimal = "Salvaje";
         leon.tiempoVida = 20;
         leon.nombreAnimal = "Leon";
         leon.Alimentacion();
-        leon.edad();
-        leon.genero();
-        leon.nombreAnimal();
+        leon.edadAnimal();
+
     }
 }

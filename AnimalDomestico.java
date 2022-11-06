@@ -6,17 +6,17 @@ public class AnimalDomestico {
 
     public void nombreAnimal() {
         System.out.print(this.nombreAnimal + "\n");
-    }
+    };
 
     public void tipoAnimal() {
-        System.out.print(tipo + "\n");
-    }
+        System.out.print("tipo:" + this.tipo + "\n");
+    };
 
-    public void edad() {
-        System.out.print(edad + "\n");
-    }
+    public void edadAnimal() {
+        System.out.print("edad:" + this.edad + "\n");
+    };
 
-    public void genero() {
-        System.out.print(genero + "\n");
-    }
+    public void genero(String genero) {
+        System.out.print("genero:" + genero);
+    };
 }
